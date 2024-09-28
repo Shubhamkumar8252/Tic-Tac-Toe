@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    background-image:url("tic.jpg");
+    background-size: cover;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+    font-display:bold ;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem #131212;
+    font-size: 8vmin;
+    columns: #000000;
+    background-color: #dca649c9;
+    font-family: cursive;
+    font-weight: bold;
+    color: #000000ef;
+}
+
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #3836365a;
+    color: #5f1717;
+    border-radius: 1rem;
+    border: none;
+}
+
+#new-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #000000;
+    color: #747070;
+    border-radius: 1rem;
+    border: none;
+}
+
+#msg{
+    color: #881412;
+    font-size: 8vmin;
+}
+
+.msg-container{
+    height: 80vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+    
+}
+
+#zeroOne{
+    font-weight: bold;
+    color: #000000;
+}
+
+.hide{
+    display: none;
+}
